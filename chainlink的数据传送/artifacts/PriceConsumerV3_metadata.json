@@ -1,0 +1,97 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getDecimals",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getLatestPrice",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "priceFeed",
+				"outputs": [
+					{
+						"internalType": "contract AggregatorV3Interface",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"chainlink的数据传送/chainlink_data.sol": "PriceConsumerV3"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@chainlink/contracts/src/v0.6/interfaces/AggregatorV3Interface.sol": {
+			"keccak256": "0x8895ce4f46aba18ee3cdb7b1d180f79edb868225781f60993c7b2181e2ee2583",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4472c14df5f311d7a2eff1dfa55d9b4d39a21b0a0ff905fcbbf6913551086a4c",
+				"dweb:/ipfs/QmQvwFk1SBaLMm4pmZCz7UEhfaXM8kUWu5VG71VFFuMxjF"
+			]
+		},
+		"chainlink的数据传送/chainlink_data.sol": {
+			"keccak256": "0xed0159c7ca116e26aaaa540acfc07da1e43567e424212e4d273f20dfe39fb138",
+			"urls": [
+				"bzz-raw://1a310ddc16577aa60987aec0b58e3b6ef8c602539432c54b2ac939ddc4364e6b",
+				"dweb:/ipfs/Qmcp9cxFJd14RWy7AJQmxqEcazTA2fsmwFURT98Y9G1rKG"
+			]
+		}
+	},
+	"version": 1
+}
